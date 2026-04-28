@@ -3,6 +3,9 @@
 ![Nexus Banner](https://img.shields.io/badge/NEXUS-Fintech_OS-blue?style=for-the-badge&logo=react)
 ![Version](https://img.shields.io/badge/Version-4.2.0--Stable-emerald?style=for-the-badge)
 ![UI](https://img.shields.io/badge/UI-Ultra--Modern_Glassmorphism-blueviolet?style=for-the-badge)
+![Live Demo](https://img.shields.io/badge/Live_Demo-NEXUS_Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+### 🌐 [Experience NEXUS Live](https://nexus-bank-management-isvz.vercel.app/)
 
 ![Project Architecture](./project_architecture.png)
 
