@@ -2,13 +2,16 @@
 
 html {
   background-color: #020617;
+  height: 100%;
+  margin: 0;
 }
 
 body {
   zoom: 85%;
   background-color: #020617;
   color: #f8fafc;
-  min-height: 100vh;
+  min-height: 117.65vh; /* Compensate for 85% zoom to fill screen */
+  margin: 0;
 }
 
 /* Custom Scrollbar Styles */
