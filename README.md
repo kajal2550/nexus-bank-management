@@ -2,9 +2,20 @@
 
 # 🚀 NEXUS — Advanced Fintech Super App & Banking OS
 
-## 🔥 [CLICK HERE FOR LIVE DEMO](https://nexus-bank-management-isvz.vercel.app/) 🔥
-
-[![Live Demo](https://img.shields.io/badge/EXPLORE_NOW-CLICK_HERE-FFD700?style=for-the-badge&logo=vercel&logoColor=black)](https://nexus-bank-management-isvz.vercel.app/)
+<table align="center">
+  <tr>
+    <td align="center" style="background-color: #020617; border: 2px solid #FFD700;">
+      <br />
+      <h2 style="margin: 0;">🔥 <a href="https://nexus-bank-management-isvz.vercel.app/">CLICK HERE FOR LIVE DEMO</a> 🔥</h2>
+      <br />
+      <a href="https://nexus-bank-management-isvz.vercel.app/">
+        <img src="https://img.shields.io/badge/EXPLORE_NOW-CLICK_HERE-FFD700?style=for-the-badge&logo=vercel&logoColor=black" alt="Live Demo" />
+      </a>
+      <br />
+      <br />
+    </td>
+  </tr>
+</table>
 
 <br />
 
