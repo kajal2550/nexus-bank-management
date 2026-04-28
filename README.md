@@ -89,11 +89,18 @@
 ## 📸 Project Architecture
 
 ```text
-src/
-├── components/          # Reusable UI Atoms (Buttons, Inputs, Cards)
-├── App.jsx             # Main Router & Global State (Context API)
-├── index.css           # Design System & Design Tokens
-└── assets/             # Vector graphics and UI assets
+.
+├── frontend/                # React.js + Tailwind UI (Vite)
+│   ├── src/components/      # Premium UI Atoms & Components
+│   ├── src/App.jsx         # Core Application Logic & Router
+│   └── src/index.css       # Design System & Global Styles
+├── backend/                 # Java Spring Boot - Primary Financial Engine
+│   ├── src/main/java/       # Business Logic, Entities, Repositories
+│   └── pom.xml             # Maven Project Dependencies
+├── node-backend/           # Express.js - Real-time Microservices
+│   ├── models/             # Database Schemas (MongoDB)
+│   └── seed.js             # Data Initialization & Migration
+└── docker-compose.yml       # Production-ready Containerization Logic
 ```
 
 ---
@@ -108,4 +115,6 @@ src/
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
-**Developed with ❤️ by [Your Name/Kajal Singh]**
+<div align="center">
+  <h3>Developed with ❤️ by Kajal Kumari</h3>
+</div>
