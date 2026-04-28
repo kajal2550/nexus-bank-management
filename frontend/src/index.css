@@ -1,17 +1,25 @@
 @import "tailwindcss";
 
-html {
-  background-color: #020617;
-  height: 100%;
+html, body {
   margin: 0;
+  padding: 0;
 }
 
 body {
   zoom: 85%;
+  width: 117.65vw;
+  height: 117.65vh;
   background-color: #020617;
   color: #f8fafc;
-  min-height: 117.65vh; /* Compensate for 85% zoom to fill screen */
-  margin: 0;
+}
+
+/* Override Tailwind h-screen to fill the zoomed viewport */
+.h-screen {
+  height: 117.65vh !important;
+}
+
+.w-screen {
+  width: 117.65vw !important;
 }
 
 /* Custom Scrollbar Styles */
