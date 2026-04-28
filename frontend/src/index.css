@@ -1,6 +1,9 @@
 @import "tailwindcss";
 
 body {
+  zoom: 85%;
+  -moz-transform: scale(0.85);
+  -moz-transform-origin: top center;
   background-color: #020617;
   color: #f8fafc;
 }
