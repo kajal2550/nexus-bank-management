@@ -156,6 +156,7 @@ function MainRouter() {
 
   useEffect(() => {
     if (token) {
+      axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
       localStorage.setItem('jwtToken', token);
 
       // --- DEMO MODE: Skip backend, load mock data ---

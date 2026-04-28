@@ -11,6 +11,12 @@ const auth = (req, res, next) => {
     const token = req.header('Authorization')?.replace('Bearer ', '');
     if (!token) return res.status(401).json({ error: 'No token, authorization denied' });
 
+    // Allow Demo Mode Token for testing
+    if (token.startsWith('DEMO_MODE_TOKEN_')) {
+        req.user = '662e6e2e6e2e6e2e6e2e6e2e'; // Dummy ObjectId
+        return next();
+    }
+
     try {
         const decoded = jwt.verify(token, process.env.JWT_SECRET);
         req.user = decoded.userId;
